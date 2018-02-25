@@ -23,7 +23,8 @@
   1. 일단 Main함수에 전부 구현
   2. 이후 함수로 분할
      - LinkedHashSet<String> **createNumber**(LinkedHashSet<String>)
-     - ​
+     - int **checkStrike**(String[] data, String[] inputData)
+     - int **checkBall**(LinkedHashSet<String> linkest, String[] inputData)
   3. 테스트
 
 - ### 이슈 사항
@@ -31,6 +32,7 @@
   - [x] 스트라이크에서 체크한 값을 null 로 지정해버려서 이후 반복문에서 조건을 검사할 때 접근할 수 없는 에러가 뜸
         - 데이터를 입력 (사용하지 않는 더미 데이터 (0))
   - [x] 자료형 `Integer` ? `String` ?
+  - [ ] Main함수도 10줄이하로 ?
 
 ---
 
