@@ -31,7 +31,7 @@ public class Main {
 
             for(int i=0; i<3; i++) {
                 if (data[i].equals(numbers[i])) {
-                    numbers[i] = null;
+                    numbers[i] = "0";
                     strike++;
                 }
 
@@ -42,7 +42,7 @@ public class Main {
             } // for
 
             for (int i=0; i<3; i++) {
-                if (numbers[i].equals(null)) continue;
+                if (numbers[i].equals("0")) continue;
                 if (lhs.contains(numbers[i])) ball++;
             }
 
